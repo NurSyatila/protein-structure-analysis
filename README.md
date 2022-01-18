@@ -6,4 +6,8 @@ Scripts to parse PDB file and analyse protein structures and sequences
   - Requires Bio module (Biopython)
   - Input: inputpdb, matrixlist, outputpdb
   
-2) 
+2) get_first_nmr_model.py
+  - A program to get the first NMR model (Model 1) from NMR structure
+  - Input: inputpdb, outputpdb
+  
+3) 
