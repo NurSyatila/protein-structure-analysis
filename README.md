@@ -10,4 +10,8 @@ Scripts to parse PDB file and analyse protein structures and sequences
   - A program to get the first NMR model (Model 1) from NMR structure
   - Input: inputpdb, outputpdb
   
-3) 
+3) generate_binding_site.py
+  - A program to create ligand binding sites
+  - Input: pdbfile, ligid, distance_cutoff
+  
+4)
