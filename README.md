@@ -20,4 +20,12 @@ Scripts to parse PDB file and analyse protein structures and sequences
   - Usage: generate_binding_site.py pdbfile ligid distance_cutoff
   - E.g. generate_binding_site.py 1a4g.pdb ZMR 4.0
   
-4)
+4) CreateNRPDB.py
+  - A program to create a data set of non-redundant PDB from a list of representative PDB entities (in PDB format) 
+  - Based on results of the weekly clustering of protein sequences in the PDB by MMseqs2 at 30%, 40%, 50%, 70%, 90%, 95%, or 100% sequence identity
+  - Input: SeqId (Sequence identity : 30, 40, 50, 70, 90, 95 or 100)
+  - Usage: CreateNRPDB.py 30
+  - The following directories will be created: 
+      pdb (original pdb files)
+      pdbCAonly (pdb with CA atoms only)
+      pdb<SeqID> (pdb files containing representative chains)
