@@ -34,16 +34,18 @@ Scripts to parse PDB file and analyse protein structures and sequences
   - Run a molecular docking for protein-ligand interaction, given a protein target (file or pdbid) and a ligand molecule (file or pubchem id)
   - Note: 
     a) The script must be used through UCSF Chimera
-    b) vina must be installed 
-  - Option 1: Blind Docking:
-    - Arguments: target (file or id), chainselection (selected chain, e.g. 'A' or 'all'), ligand (file or id), vinapath
-  - Usage:
-    ##### Option 1: Blind Docking
-    ~ Perform Docking Against the Whole Protein Structure (Blind Docking)
-    ~ Example 1 (id): /Applications/Chimera.app/Contents/MacOS/chimera --script "MolecularDocking.py --dock blind --t 4ey7 --c A --l 44159808 --v /usr/local/bin/vina"
-    ~ Example 2 (file): /Applications/Chimera.app/Contents/MacOS/chimera --script "MolecularDocking.py --dock blind --t target.cif --c A --l ligand.sdf --v /usr/local/bin/vina"
+    b) vina must be installed   
+  - Option 1: Blind Docking:  
+    - Arguments: target (file or id), chainselection (selected chain, e.g. 'A' or 'all'), ligand (file or id), vinapath. 
+  - Option 2: Binding Site Docking:  
+    - Arguments: target (file or id), chainselection (selected chain, e.g. 'A' or 'all'), ligand (file or id), vinapath. 
+  - Usage:  
+    ##### Option 1: Blind Docking. 
+    ~ Perform Docking Against the Whole Protein Structure (Blind Docking). 
+    ~ Example 1 (id): /Applications/Chimera.app/Contents/MacOS/chimera --script "MolecularDocking.py --dock blind --t 4ey7 --c A --l 44159808 --v /usr/local/bin/vina". 
+    ~ Example 2 (file): /Applications/Chimera.app/Contents/MacOS/chimera --script "MolecularDocking.py --dock blind --t target.cif --c A --l ligand.sdf --v /usr/local/bin/vina". 
   
-    ##### Option 2: Binding Site Docking
-    ~ Perform Molecular Docking against the Binding Site (use binding site as the reference / grid box)
-    ~ Example 1 (id,reference ligand for selection of bs): /Applications/Chimera.app/Contents/MacOS/chimera --script "MolecularDocking.py --dock bsite --t 4ey7 --c A --r E20 --l 44159808 --v /usr/local/bin/vina"
-    ~ Example 2 (file, reference residues for selection of bs): /Applications/Chimera.app/Contents/MacOS/chimera --script "MolecularDocking.py --dock bsite --t target.cif --c A --r 124.a,297.a,202.a,86.a,286.a,337.a,341.a --l ligand.sdf --v /usr/local/bin/vina"
+    ##### Option 2: Binding Site Docking. 
+    ~ Perform Molecular Docking against the Binding Site (use binding site as the reference / grid box). 
+    ~ Example 1 (id,reference ligand for selection of bs): /Applications/Chimera.app/Contents/MacOS/chimera --script "MolecularDocking.py --dock bsite --t 4ey7 --c A --r E20 --l 44159808 --v /usr/local/bin/vina". 
+    ~ Example 2 (file, reference residues for selection of bs): /Applications/Chimera.app/Contents/MacOS/chimera --script "MolecularDocking.py --dock bsite --t target.cif --c A --r 124.a,297.a,202.a,86.a,286.a,337.a,341.a --l ligand.sdf --v /usr/local/bin/vina". 
