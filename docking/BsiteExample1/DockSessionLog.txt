@@ -1,0 +1,87 @@
+Charge model: AMBER ff14SB
+Run a molecular docking for protein-ligand interaction
+#0, chain A: ACHE
+#0, chain B: ACHE
+4ey7 opened
+Center of mass of 28 atoms in 4ey7 (#0) coordinate system = (-14.23, -43.79, 27.57)
+-14.23,-43.79,27.57
+Terminii for 4ey7 (#0) chain A determined from SEQRES records
+Chain-initial residues that are actual N terminii: 
+Chain-initial residues that are not actual N terminii: GLU 4.A, ASN 265.A, PRO 498.A
+Chain-final residues that are actual C terminii: 
+Chain-final residues that are not actual C terminii: PRO 258.A, ASP 494.A, ALA 542.A
+491 hydrogen bonds
+Adding 'H' to GLU 4.A
+Adding 'H' to ASN 265.A
+Removing spurious proton from 'C' of ALA 542.A
+Hydrogens added
+Charge model: AMBER ff14SB
+Total charge for #0: -9.000
+CID 44159808 opened
+Chain-initial residues that are actual N terminii: 
+Chain-initial residues that are not actual N terminii: 
+Chain-final residues that are actual C terminii: 
+Chain-final residues that are not actual C terminii: 
+1 hydrogen bonds
+Hydrogens added
+Charge model: AMBER ff14SB
+Terminii for 4ey7 (#0) chain A determined from SEQRES records
+Chain-initial residues that are actual N terminii: 
+Chain-initial residues that are not actual N terminii: #0 GLU 4.A, #0 ASN 265.A, #0 PRO 498.A
+Chain-final residues that are actual C terminii: 
+Chain-final residues that are not actual C terminii: #0 PRO 258.A, #0 ASP 494.A, #0 ALA 542.A
+480 hydrogen bonds
+Removing spurious proton from 'C' of #0 ALA 542.A
+Hydrogens added
+Wrote dock.receptor.pdb into /Users/nsag/Documents/dockingscript
+adding gasteiger charges to peptide
+Wrote dock.ligand.pdb into /Users/nsag/Documents/dockingscript
+standard output
+-----
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+Detected 4 CPUs
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: -582409280
+Performing search ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.3      0.000      0.000
+   2        -10.1      3.126      5.692
+   3         -9.9      1.904      7.763
+   4         -9.5      2.365      4.621
+   5         -9.2      2.795      6.162
+   6         -9.2      2.695      5.148
+   7         -8.4      4.505      7.597
+   8         -7.8      2.191      4.326
+   9         -7.6      1.660      2.142
+Writing output ... done.
+-----
+standard error
+-----
+[no output]
+-----
+Autodock Vina ligand docking initiated for 4ey7
+Wrote complex.pdb into /Users/nsag/Documents/dockingscript
+

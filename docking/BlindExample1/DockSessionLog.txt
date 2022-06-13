@@ -1,0 +1,86 @@
+Charge model: AMBER ff14SB
+Run a molecular docking for protein-ligand interaction
+#0, chain A: ACHE
+#0, chain B: ACHE
+4ey7 opened
+Terminii for 4ey7 (#0) chain A determined from SEQRES records
+Chain-initial residues that are actual N terminii: 
+Chain-initial residues that are not actual N terminii: GLU 4.A, ASN 265.A, PRO 498.A
+Chain-final residues that are actual C terminii: 
+Chain-final residues that are not actual C terminii: PRO 258.A, ASP 494.A, ALA 542.A
+491 hydrogen bonds
+Adding 'H' to GLU 4.A
+Adding 'H' to ASN 265.A
+Removing spurious proton from 'C' of ALA 542.A
+Hydrogens added
+Charge model: AMBER ff14SB
+Total charge for #0: -9.000
+CID 44159808 opened
+Chain-initial residues that are actual N terminii: 
+Chain-initial residues that are not actual N terminii: 
+Chain-final residues that are actual C terminii: 
+Chain-final residues that are not actual C terminii: 
+1 hydrogen bonds
+Hydrogens added
+Charge model: AMBER ff14SB
+Terminii for 4ey7 (#0) chain A determined from SEQRES records
+Chain-initial residues that are actual N terminii: 
+Chain-initial residues that are not actual N terminii: #0 GLU 4.A, #0 ASN 265.A, #0 PRO 498.A
+Chain-final residues that are actual C terminii: 
+Chain-final residues that are not actual C terminii: #0 PRO 258.A, #0 ASP 494.A, #0 ALA 542.A
+480 hydrogen bonds
+Removing spurious proton from 'C' of #0 ALA 542.A
+Hydrogens added
+Wrote dock.receptor.pdb into /Users/nsag/Documents/dockingscript
+adding gasteiger charges to peptide
+Wrote dock.ligand.pdb into /Users/nsag/Documents/dockingscript
+standard output
+-----
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+WARNING: The search space volume > 27000 Angstrom^3 (See FAQ)
+Detected 4 CPUs
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: -1777614960
+Performing search ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.4      0.000      0.000
+   2        -10.1      2.987      5.465
+   3         -9.6      2.454      4.834
+   4         -8.8      1.370      1.906
+   5         -8.7      3.479      6.835
+   6         -8.6      3.174      5.833
+   7         -8.5      4.416      7.494
+   8         -8.3      3.136      8.883
+   9         -8.2      5.340      8.488
+Writing output ... done.
+-----
+standard error
+-----
+[no output]
+-----
+Autodock Vina ligand docking initiated for 4ey7
+Wrote complex.pdb into /Users/nsag/Documents/dockingscript
+

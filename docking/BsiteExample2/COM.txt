@@ -1,0 +1,68 @@
+Charge model: AMBER ff14SB
+Run a molecular docking for protein-ligand interaction
+[MMLIB:WARNING] atom name clash Atom(n=N alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CA alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=C alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=O alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CB alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CG alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CD alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=OE1 alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NE2 alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=N alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CA alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=C alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=O alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CB alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CG alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CD alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=OE1 alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=OE2 alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=N alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CA alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=C alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=O alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CB alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CG alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=ND1 alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CD2 alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CE1 alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NE2 alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=N alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CA alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=C alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=O alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CB alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CG alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CD alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NE alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CZ alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NH1 alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NH2 alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=N alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CA alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=C alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=O alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CB alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CG alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=ND1 alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CD2 alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CE1 alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NE2 alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=N alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CA alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=C alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=O alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CB alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CG alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CD alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NE alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CZ alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NH1 alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NH2 alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] monomer description not found in zipfile for 'E20'
+#0, chain A: acetylcholinesterase
+#0, chain B: acetylcholinesterase
+target.cif opened
+Center of mass of 72 atoms in target.cif (#0) coordinate system = (-12.14, -41.99, 29.13)
+

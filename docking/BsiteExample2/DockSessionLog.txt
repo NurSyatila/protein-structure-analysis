@@ -1,0 +1,152 @@
+Charge model: AMBER ff14SB
+Run a molecular docking for protein-ligand interaction
+[MMLIB:WARNING] atom name clash Atom(n=N alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CA alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=C alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=O alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CB alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CG alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CD alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=OE1 alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NE2 alt= res=GLN chn=A frag=54 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=N alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CA alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=C alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=O alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CB alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CG alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CD alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=OE1 alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=OE2 alt= res=GLU chn=A frag=313 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=N alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CA alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=C alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=O alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CB alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CG alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=ND1 alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CD2 alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CE1 alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NE2 alt= res=HIS chn=A frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=N alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CA alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=C alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=O alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CB alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CG alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CD alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NE alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CZ alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NH1 alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NH2 alt= res=ARG chn=A frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=N alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CA alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=C alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=O alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CB alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CG alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=ND1 alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CD2 alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CE1 alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NE2 alt= res=HIS chn=B frag=381 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=N alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CA alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=C alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=O alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CB alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CG alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CD alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NE alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=CZ alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NH1 alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] atom name clash Atom(n=NH2 alt= res=ARG chn=B frag=525 mdl=1), automatically assigning ALTLOC labels
+[MMLIB:WARNING] monomer description not found in zipfile for 'E20'
+#0, chain A: acetylcholinesterase
+#0, chain B: acetylcholinesterase
+target.cif opened
+Center of mass of 72 atoms in target.cif (#0) coordinate system = (-12.14, -41.99, 29.13)
+-12.14,-41.99,29.13
+Terminii for target.cif (#0) chain A determined from SEQRES records
+Chain-initial residues that are actual N terminii: 
+Chain-initial residues that are not actual N terminii: GLU 4.A, ASN 265.A, PRO 498.A
+Chain-final residues that are actual C terminii: 
+Chain-final residues that are not actual C terminii: PRO 258.A, ASP 494.A, ALA 542.A
+491 hydrogen bonds
+Adding 'H' to GLU 4.A
+Adding 'H' to ASN 265.A
+Removing spurious proton from 'C' of PRO 258.A
+Removing spurious proton from 'C' of ASP 494.A
+Removing spurious proton from 'C' of ALA 542.A
+Hydrogens added
+Charge model: AMBER ff14SB
+Total charge for #0: -9.000
+44159808 opened
+Chain-initial residues that are actual N terminii: 
+Chain-initial residues that are not actual N terminii: 
+Chain-final residues that are actual C terminii: 
+Chain-final residues that are not actual C terminii: 
+1 hydrogen bonds
+Hydrogens added
+Charge model: AMBER ff14SB
+Terminii for target.cif (#0) chain A determined from SEQRES records
+Chain-initial residues that are actual N terminii: 
+Chain-initial residues that are not actual N terminii: #0 GLU 4.A, #0 ASN 265.A, #0 PRO 498.A
+Chain-final residues that are actual C terminii: 
+Chain-final residues that are not actual C terminii: #0 PRO 258.A, #0 ASP 494.A, #0 ALA 542.A
+480 hydrogen bonds
+Removing spurious proton from 'C' of #0 PRO 258.A
+Removing spurious proton from 'C' of #0 ASP 494.A
+Removing spurious proton from 'C' of #0 ALA 542.A
+Hydrogens added
+Wrote dock.receptor.pdb into /Users/nsag/Documents/dockingscript
+adding gasteiger charges to peptide
+Wrote dock.ligand.pdb into /Users/nsag/Documents/dockingscript
+standard output
+-----
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+Detected 4 CPUs
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: -1525181059
+Performing search ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.4      0.000      0.000
+   2        -10.2      3.168      5.727
+   3        -10.0      1.891      7.742
+   4         -9.6      0.996      1.273
+   5         -9.6      2.462      4.848
+   6         -9.3      2.837      6.277
+   7         -9.0      2.623      5.220
+   8         -8.6      3.360      8.352
+   9         -8.6      5.636     11.130
+Writing output ... done.
+-----
+standard error
+-----
+[no output]
+-----
+Autodock Vina ligand docking initiated for target.cif
+Wrote complex.pdb into /Users/nsag/Documents/dockingscript
+

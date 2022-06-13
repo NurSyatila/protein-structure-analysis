@@ -1,0 +1,7 @@
+Charge model: AMBER ff14SB
+Run a molecular docking for protein-ligand interaction
+#0, chain A: ACHE
+#0, chain B: ACHE
+4ey7 opened
+Center of mass of 28 atoms in 4ey7 (#0) coordinate system = (-14.23, -43.79, 27.57)
+
